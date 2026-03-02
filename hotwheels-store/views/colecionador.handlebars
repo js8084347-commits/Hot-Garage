@@ -1,51 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="logo">
-      <img src="/img/logo_img.png" alt="Logo">
-    </div>
-
-    <div class="menu">
-      <a href="/" class="scale">Home</a>
-
-      <div class="dropdown">
-        <a href="#" class="dropdown-toggle scale">Produtos</a>
-
-        <div class="dropdown-menu">
-          <a href="/products">Carrinhos</a>
-          <a href="/conjuntos">Conjuntos e Pistas</a>
-          <a href="/monster-trucks">Monster Trucks</a>
-          <a href="/novidades">Novidades</a>
-          <a href="/colecionador">Colecionador</a>
-        </div>
-      </div>
-
-      <a href="#" class="scale">Carrinho</a>
-    </div>
-  </nav>
-
-
-    <header class="products-header">
+<header class="products-header">
   <h1>Linha Colecionador</h1>
   <p>Edições especiais para verdadeiros fãs 🚗✨</p>
 </header>
-
-
-
 
 <div class="products-content">
 
   <aside class="filters">
     <h3>Filtrar</h3>
 
-    <button data-filter="all">Todos</button>
+    <button data-filter="all" class="active">Todos</button>
     <button data-filter="Premium">Premium</button>
     <button data-filter="Silver-series">Silver Series</button>
     <button data-filter="Limitado">Limitado</button>
@@ -56,43 +19,5 @@
 
 </div>
 
+<script src="/js/addToCart.js"></script>
 <script src="/js/colecionador.js"></script>
-<footer class="footer">
-    <div class="footer-container">
-
-      <div class="footer-column">
-        <h3>Hot Garage Store</h3>
-        <p>Sua loja especializada em carrinhos Hot Wheels.
-          Velocidade, coleção e diversão.</p>
-      </div>
-
-      <div class="footer-column">
-        <h3>Institucional</h3>
-        <a href="#">Sobre nós</a>
-        <a href="#">Política de Privacidade</a>
-        <a href="#">Trocas e Devoluções</a>
-      </div>
-
-      <div class="footer-column">
-        <h3>Atendimento</h3>
-        <a href="#">Fale Conosco</a>
-        <a href="#">FAQ</a>
-        <a href="#">Suporte</a>
-      </div>
-
-      <div class="footer-column">
-        <h3>Redes Sociais</h3>
-        <a href="#">Instagram</a>
-        <a href="#">Facebook</a>
-        <a href="#">YouTube</a>
-      </div>
-
-    </div>
-
-    <div class="footer-bottom">
-      <p>© 2026 Hot Garage Store — Todos os direitos reservados</p>
-    </div>
-  </footer>
-
-</body>
-</html>

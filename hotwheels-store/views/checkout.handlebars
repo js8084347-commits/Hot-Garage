@@ -1,17 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<div class="checkout-success">
+    <div class="checkout-success-card">
+        <div class="checkout-icon">🎉</div>
+        <h1>Compra Finalizada!</h1>
+        <p>Obrigado por comprar na <strong>Hot Garage Store</strong>!<br>
+            Seu pedido foi recebido e está sendo processado.</p>
+        <a href="/" class="checkout-home-btn">Voltar para a Loja</a>
+    </div>
+</div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot Garage Store - Compra Finalizada</title>
-</head>
-
-<body>
-    <h1>Compra finalizada 🎉</h1>
-    <p>Obrigado por comprar na Hot Garage Store!</p>
-    <a href="/">Voltar para home</a>
-
-</body>
-
-</html>
+<script>
+    // Limpa o carrinho ao chegar nesta página
+    localStorage.removeItem('cart');
+    // Garante que o badge suma na navbar
+    const badge = document.getElementById('cart-count');
+    if (badge) { badge.textContent = '0'; badge.style.display = 'none'; }
+</script>

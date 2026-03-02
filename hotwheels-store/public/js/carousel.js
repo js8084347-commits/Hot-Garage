@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="card-info">
             <h3>${product.name}</h3>
             <p>R$ ${product.price.toFixed(2)}</p>
+            <button class="card-add-btn" onclick='addToCart(${JSON.stringify(product)})'>Adicionar ao Carrinho</button>
           </div>
         `;
 

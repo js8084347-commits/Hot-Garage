@@ -3,12 +3,26 @@
 </header>
 
 <div class="cart-container">
-  <div id="cart-items"></div>
+
+  <div class="cart-list" id="cart-items">
+    <!-- Itens inseridos via JS -->
+  </div>
 
   <div class="cart-summary">
     <h2>Total: R$ <span id="cart-total">0.00</span></h2>
-    <button class="checkout-btn" id="finish-btn">Finalizar Compra</button>
+    <button class="checkout-btn" id="finish-btn" onclick="finalizarCompra()">Finalizar Compra</button>
   </div>
+
 </div>
 
 <script src="/js/cart.js"></script>
+<script>
+  function finalizarCompra() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    if (cart.length === 0) {
+      alert('Seu carrinho está vazio! Adicione produtos antes de finalizar.');
+      return;
+    }
+    window.location.href = '/checkout';
+  }
+</script>

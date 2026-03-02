@@ -25,20 +25,20 @@ function renderCart() {
 
     container.innerHTML += `
       <div class="cart-item">
-        <img src="${item.image}" width="80">
+        <img src="${item.image}" alt="${item.name}">
 
         <div class="cart-info">
           <h3>${item.name}</h3>
-          <p>R$ ${item.price.toFixed(2)}</p>
+          <p class="item-price">R$ ${item.price.toFixed(2)}</p>
 
           <div class="quantity-controls">
-            <button onclick="decreaseQuantity(${index})">-</button>
+            <button onclick="decreaseQuantity(${index})">−</button>
             <span>${item.quantity}</span>
             <button onclick="increaseQuantity(${index})">+</button>
           </div>
 
           <button class="remove-btn" onclick="removeItem(${index})">
-            Remover
+            🗑️ Remover
           </button>
         </div>
       </div>

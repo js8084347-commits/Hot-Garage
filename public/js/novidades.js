@@ -19,9 +19,18 @@ fetch("/data/novidades.json")
               <h3>${product.name}</h3>
               <p class="price">R$ ${product.price}</p>
             </div>
-            <button>Adicionar ao carrinho</button>
+            <button class="add-to-cart-btn" data-product='${JSON.stringify(product)}'>Adicionar ao carrinho</button>
           </div>
         `;
+            });
+
+            // Adiciona event listeners aos botões após renderizar
+            document.querySelectorAll(".add-to-cart-btn").forEach(btn => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+                    const product = JSON.parse(btn.dataset.product);
+                    addToCart(product);
+                });
             });
         }
 

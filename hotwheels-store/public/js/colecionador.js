@@ -3,6 +3,7 @@ fetch("/data/colecionador.json")
   .then(data => {
 
     const grid = document.getElementById("colecionador-grid");
+    const filterBtns = document.querySelectorAll(".filters button");
 
     function renderProducts(filter = "all") {
       grid.innerHTML = "";
@@ -17,9 +18,9 @@ fetch("/data/colecionador.json")
             <img src="${product.image}" alt="${product.name}">
             <div class="card-info">
               <h3>${product.name}</h3>
-              <p class="price">R$ ${product.price}</p>
+              <p class="price">R$ ${Number(product.price).toFixed(2)}</p>
             </div>
-            <button>Adicionar ao carrinho</button>
+            <button onclick='addToCart(${JSON.stringify(product)})'>Adicionar ao Carrinho</button>
           </div>
         `;
       });
@@ -27,8 +28,10 @@ fetch("/data/colecionador.json")
 
     renderProducts();
 
-    document.querySelectorAll(".filters button").forEach(btn => {
+    filterBtns.forEach(btn => {
       btn.addEventListener("click", () => {
+        filterBtns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
         renderProducts(btn.dataset.filter);
       });
     });

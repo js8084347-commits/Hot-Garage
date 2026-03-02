@@ -23,14 +23,18 @@ document.addEventListener("DOMContentLoaded", () => {
         <img src="${product.image}" alt="${product.name}">
         <h3>${product.name}</h3>
         <p>R$ ${product.price.toFixed(2)}</p>
+        <button onclick='addToCart(${JSON.stringify(product)})'>Adicionar ao Carrinho</button>
       `;
 
       grid.appendChild(card);
     });
   }
 
+  // Marca o filtro ativo visualmente
   buttons.forEach(button => {
     button.addEventListener("click", () => {
+      buttons.forEach(b => b.classList.remove("active"));
+      button.classList.add("active");
 
       const filter = button.dataset.filter;
 
@@ -40,7 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const filtered = allProducts.filter(p => p.brand === filter);
         renderProducts(filtered);
       }
-
     });
   });
 
