@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "name": "Hot Wheels Corvette Grand Sport - Mattel Brick Shop",
+    "price": 39.90,
+    "category": "Brick Shop",
+    "image": "/img/Mattel_Brick_Shop_Hot Wheels_Corvette_Grand_Sport.png"
+  },
+  {
+    "id": 2,
+    "name": "Hot Wheels Elite Audi - Mattel Brick Shop",
+    "price": 99.90,
+    "category": "Brick Shop",
+    "image": "/img/Mattel_Brick_Shop_Hot Wheels_Elite_Audi.png"
+  },
+  {
+    "id": 3,
+    "name": "Hot Wheels  Custom '90 Honda Civic EF- Mattel Brick Shop",
+    "price": 249.90,
+    "category": "Brick Shop",
+    "image": "/img/Mattel_Brick_Shop_Hot Wheels_Custom_90_Honda_Civic_EF.png"
+  },
+    {
+        "id": 4,
+        "name": "Hot Wheels  Custom Speed '07 Honda S2000- Mattel Brick Shop",
+        "price": 249.90,
+        "category": "Brick Shop",
+        "image": "/img/Mattel_Brick_Shop_Hot Wheels_Custom_Speed_07_Honda_S2000.png"
+    },
+    {
+        "id": 5,
+        "name": "Hot Wheels  Custom Speed '94 Audi Avant RS2- Mattel Brick Shop",
+        "price": 249.90,
+        "category": "Brick Shop",
+        "image": "/img/Mattel_Brick_Shop_Hot Wheels_Custom_Speed_94_Audi_Avant_RS2.png"
+    },
+    {
+        "id": 6,
+        "name": "LEGO Technic Carro Nissan Skyline GT-R (R34)",
+        "price": 249.90,
+        "category": "Lego",
+        "image": "/img/LEGO_Technic_Carro_Nissan_Skyline_GT-R_R34.png"
+    },
+    {
+        "id": 7,
+        "name": "Hot Wheels  Custom '62 Chevy' Pickup- Mattel Brick Shop",
+        "price": 249.90,
+        "category": "Brick Shop",
+        "image": "/img/Mattel_Brick_Shop_Hot Wheels_Custom_62_Chevy_Pickup.png"
+    },
+    {
+        "id": 8,
+        "name": "LEGO Technic Fast and Furious Toyota Supra MK4",
+        "price": 249.90,
+        "category": "Lego",
+        "image": "/img/LEGO_Technic_Fast_and_Furious_Toyota_Supra_MK4.png"
+    },
+    {
+        "id": 9,
+        "name": "Hot Wheels Premium Fórmula 1 -Oracle Red Bull Racing ",
+        "price": 249.90,
+        "category": "Formula 1",
+        "image": "/img/Hot_Wheels_Premium_Formula_1_Oracle_Red_Bull_Racing.png"
+    },
+    {
+        "id": 10,
+        "name": "Hot Wheels Premium Fórmula 1 -Mercedes-AMG Petronas Formula One Team",
+        "price": 249.90,
+        "category": "Formula 1",
+        "image": "/img/Hot_Wheels_Premium_Formula_1_Mercedes-AMG_Petronas_Formula_One_Team.png"
+    },
+    {
+        "id": 11,
+        "name": "Hot Wheels Premium Fórmula 1 -McLaren F1 Team",
+        "price": 249.90,
+        "category": "Formula 1",
+        "image": "/img/Hot_Wheels_Premium_Formula_1_McLaren_F1_Team.png"
+    },
+    {
+        "id": 12,
+        "name": "LEGO Technic Mercedes-AMG F1 W14 E Performance",
+        "price": 249.90,
+        "category": ["Formula 1", "Lego"],
+        "image": "/img/LEGO_Technic_Mercedes-AMG_F1_W14_E_Performance.png"
+    }
+
+
+]

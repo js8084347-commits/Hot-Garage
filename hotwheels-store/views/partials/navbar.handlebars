@@ -1,0 +1,38 @@
+<nav class="navbar">
+    <div class="logo">
+        <a href="/"><img src="/img/logo_img.png" alt="Hot Garage Store Logo"></a>
+    </div>
+
+    <div class="menu">
+        <a href="/" class="scale">Home</a>
+
+        <div class="dropdown">
+            <a href="#" class="dropdown-toggle scale">Produtos</a>
+
+            <div class="dropdown-menu">
+                <a href="/products">Carrinhos</a>
+                <a href="/conjuntos">Conjuntos e Pistas</a>
+                <a href="/monster-trucks">Monster Trucks</a>
+                <a href="/novidades">Novidades</a>
+                <a href="/colecionador">Colecionador</a>
+            </div>
+        </div>
+
+        <a href="/cart" class="scale cart-link">
+            🛒 Carrinho <span id="cart-count" class="cart-badge">0</span>
+        </a>
+    </div>
+</nav>
+
+<script>
+    // Atualiza contador do carrinho na navbar
+    (function () {
+        const cart = JSON.parse(localStorage.getItem('cart')) || [];
+        const count = cart.reduce((sum, item) => sum + (item.quantity || 1), 0);
+        const badge = document.getElementById('cart-count');
+        if (badge) {
+            badge.textContent = count;
+            badge.style.display = count > 0 ? 'inline-flex' : 'none';
+        }
+    })();
+</script>

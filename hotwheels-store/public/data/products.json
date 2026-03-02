@@ -1,0 +1,89 @@
+[
+  { "id": 1, 
+  "name": "Hot Wheels Ferrari", 
+  "brand": "Ferrari",
+  "price": 29.90, 
+  "image": "/img/Ferrari_SF90_Stradale.png" 
+  },
+
+  { "id": 2, 
+  "name": "Hot Wheels Lamborghini", 
+  "brand": "Lamborghini",
+  "price": 34.90, 
+  "image": "/img/Lamborghini_Sian_FKP_37.png"
+  },
+
+  { "id": 3,
+  "name": "Hot Wheels Porsche",
+  "brand": "Porsche",
+  "price": 39.90, 
+  "image": "/img/Porsche_911_GT3.png" 
+  },
+
+  { "id": 4, 
+  "name": "Hot Wheels SRT Viper",
+  "brand": "Dodge Viper",
+  "price": 39.90, 
+  "image": "/img/2013_SRT_Viper.png" 
+  },
+
+  { "id": 5, 
+  "name": "Hot Wheels Subaru Wrx STI", 
+  "brand": "Subaru",
+  "price": 27.90, 
+  "image": "/img/Subaru_Wrx_STI.png"
+  },
+
+  { "id": 6, 
+  "name": "Hot Wheels Custom ’62 Chevy",
+  "brand": "Chevrolet Chevy",
+  "price": 149.90, 
+  "image": "/img/Custom_62_Chevy.png"
+  },
+
+  { "id": 7,
+   "name": "Hot Wheels McLaren Formula 1 Team",
+   "brand": "McLaren Formula 1 Team",   
+   "price": 149.90,
+   "image": "/img/McLaren_Formula_1_Team.png"
+  },
+
+  { "id": 8, 
+  "name": "Hot Wheels Pop Culture – Snoopy Peanuts", 
+  "brand": "Pop Culture",
+  "price": 68.90, 
+  "image": "/img/Pop_Culture_Snoopy_Peanuts.png"
+  },
+
+  { "id": 9, 
+  "name": "Hot Wheels Entertainment – Nissan Concept 2020 Vision GT",
+  "brand": "Nissan",
+  "price": 139.90,
+  "image": "/img/Nissan_Concept_2020_Vision_GT.png"
+   },
+
+  { "id": 10,
+  "name": "Hot Wheels Imagination – Max Steel Motorcycle", 
+  "brand": "Max Steel",
+  "price": 39.90, 
+  "image": "/img/Max_Steel_Motorcycle.png"
+  },
+
+  { "id": 11, 
+  "name": "Hot Wheels Premiere – The Mystery Machine",
+  "brand": "The Mystery Machine", 
+  "price": 39.90, 
+  "image": "/img/The_Mystery_Machine.png"
+  },
+
+  { "id": 12, 
+  "name": "Hot Wheels Series AcceleRacers – Revert", 
+  "brand": "AcceleRacers",
+  "price": 39.90, 
+  "image": "/img/Revert.png"
+  }
+
+]
+
+
+

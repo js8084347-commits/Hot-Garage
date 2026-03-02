@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Monster Truck Hot Wheels Série Power Smashers",
+    "price": 89.90,
+    "category": "Clássico",
+    "image": "/img/Monster_Truck_Hot_Wheels_Série_Power_Smashers.png"
+  },
+  {
+    "id": 2,
+    "name": "Monster Trucks Hot Wheels Humvee Hkm39",
+    "price": 119.90,
+    "category": "Clássico",
+    "image": "/img/Monster_Trucks_Hot_Wheels_Humvee_Hkm39.png"
+  },
+    {
+    "id": 3,
+    "name": "Monster Truck Nissan Skyline GT-R",
+    "price": 119.90,
+    "category": "Clássico",
+    "image": "/img/Monster_Truck_Nissan_skyline GT_R.png"
+  },
+      {
+    "id": 4,
+    "name": "Monster Trucks reboque Mega-Wrex",
+    "price": 100.00,
+    "category": "Clássico",
+    "image": "/img/Monster_Trucks_reboque_Mega-Wrex.png"
+  },
+
+    {
+    "id": 5,
+    "name": "Batman The Dark Knight",
+    "price": 129.90,
+    "category": "Temáticos",
+    "image": "/img/Monster_Trucks_Batman_The_Dark_Knight.png"
+  },
+  {
+    "id": 6,
+    "name": "Monster Truck Dozen Delivery",
+    "price": 100.00,
+    "category": "Clássico",
+    "image": "/img/Monster_Truck_Dozen_Delivery.png"
+  },
+  {
+    "id": 7,
+    "name": "Monster Truck Supergirl Dc",
+    "price": 100.00,
+    "category": "Temáticos",
+    "image": "/img/Monster_Truck_Supergirl_Dc.png"
+  },
+  {
+    "id": 8,
+    "name": "Monster Trucks Turtles Michelangelo",
+    "price": 100.00,
+    "category": "Temáticos",
+    "image": "/img/Hot_Wheels_Monster_Truck_Turtles_Michelangelo.png"
+  },
+  {
+    "id": 9,
+    "name": "Monster Trucks Spongebob Vs Plankton",
+    "price": 100.00,
+    "category": "Temáticos",
+    "image": "/img/Monster_Trucks_Spongebob_Vs_Plankton.png"
+  },
+    {
+     "id": 10,
+     "name": "Monster Trucks Spongebob Vs Patrick star",
+     "price": 100.00,
+     "category": "Temáticos",
+     "image": "/img/Monster_Trucks_Spongebob_Vs_Patrick_star.png"
+      },
+      {
+        "id": 11,
+        "name": "Monster Truck Dragonizer",
+        "price": 100.00,
+        "category": "Clássico",
+        "image": "/img/Monster_Truck_Dragonizer.png"
+      },
+      {
+        "id": 12,
+        "name": "Monster Truck Skyline velozes e furiosos",
+        "price": 100.00,
+        "category": "Temáticos",
+        "image": "/img/Monster_Truck_Skyline_velozes_e_furiosos.png"
+       }
+       
+      
+
+
+
+
+
+]

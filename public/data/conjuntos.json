@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Pista Hot Wheels - Campeonato de Looping - Action - GTV13",
+    "price": 199.90,
+    "category": "Looping",
+    "image": "/img/Pista_Hot_Wheels_Campeonato_de_Looping_Action _GTV13.png"
+  },
+  {
+    "id": 2,
+    "name": "hot wheels action pista radical salta fogo mattel",
+    "price": 349.90,
+    "category": "Radical",
+    "image": "/img/hot_wheels_action_pista_radical_salta_fogo_mattel.png"
+  }, 
+  {
+    "id": 3,
+    "name": "Pista rampa radical corrida Drift Champion carro Hot Wheels",
+    "price": 299.90,
+    "category": "Radical",
+    "image": "/img/Pista_rampa_radical_corrida_Drift_Champion_carro_Hot_Wheels.png"
+  },
+  {
+    "id": 4,
+    "name": "Pista Hot Wheels Loop Star Vuelta 360 Rei do Looping Mattel",
+    "price": 249.90,
+    "category": "Looping",
+    "image": "/img/Pista_Hot_Wheels_Loop_Star_Vuelta_360_Rei_do_Looping_Mattel.png"
+  },
+  {
+    "id": 5,
+    "name": "Pista Hot wheels Looping Ajustável Mattel",
+    "price": 179.90,
+    "category": "Looping",
+    "image": "/img/Pista_Hot_wheels_Looping_Ajustável_Mattel.png"
+  },
+  {
+    "id": 6,
+    "name": "Pista Hot Wheels Radical - Ultimate Spinout - Mattel",
+    "price": 149.90,
+    "category": "Radical",
+    "image": "/img/Pista_Hot_Wheels_Radical_Ultimate_Spinout_Mattel.png"
+  },
+  {
+    "id": 7,
+    "name": "Pista De Manobras Hot Wheels Track Builder Deluxe Radical",
+    "price": 129.90,
+    "category": "Radical",
+    "image": "/img/Pista_De_Manobras_Hot_Wheels_Track_Builder_Deluxe_Radical.png"
+  },
+  {
+    "id": 8,
+    "name": "Mega Set Hotwheels mega metropolis",
+    "price": 109.90,
+    "category": "Mega Sets",
+    "image": "/img/Mega_Set_Hotwheels_mega_metropolis.png"
+  },
+  {
+    "id": 9,
+    "name": "Pista Hot Wheels Mega rally Set Mattel",
+    "price": 89.90,
+    "category": "Mega Sets",
+    "image": "/img/Mega_rally_Set.png"
+  },
+  {
+    "id": 10,
+    "name": "Pista Hot Wheels Race Crate- Mattel",
+    "price": 69.90,
+    "category": "Mega Sets",
+    "image": "/img/Conjunto_de_pistas_Hot_Wheels_Race_Crate_com_armazenamento_e_2_carros.png"
+  },
+  {
+    "id": 11,
+    "name": "Hot Wheels City Pista de Brinquedo Mega Garagem - GTV06",
+    "price": 49.90,
+    "category": "Mega Sets",
+    "image": "/img/Hot_Wheels_City_Pista_de_Brinquedo_Mega_Garagem.png"
+  },
+    {
+        "id": 12,
+        "name": "Pista de Brinquedo Stunt Tracks Choque Multi-Aéreo",
+        "price": 29.90,
+        "category": "Mega Sets",
+        "image": "/img/Pista_de_Brinquedo_Stunt_Tracks_Choque_Multi_Aéreo.png"
+    }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Hot Wheels Beach Bomb Rear Loading",
+    "price": 199.90,
+    "category": "Raro",
+    "image": "/img/Hot_Wheels_Beach_Bomb_Rear_Loading.png"
+  },
+  {
+    "id": 2,
+    "name": "Hot Wheels Chevrolet Custom Camaro Enamel White",
+    "price": 249.90,
+    "category": "Raro",
+    "image": "/img/Hot_Wheels_Chevrolet_Custom_Camaro_Enamel_White.png"
+  },
+  {
+    "id": 3,
+    "name": "Hot Wheels '92 BMW M3, 55th Anniversary",
+    "price": 299.90,
+    "category": "Limitado",
+    "image": "/img/Hot_Wheels_92_BMW_M3_55th_Anniversary.png"
+  },
+  {
+    "id": 4,
+    "name": "Hot Wheels Pearl & Chrome Porsche Cayman S, 57th Anniversary",
+    "price": 299.90,
+    "category": "Limitado",
+    "image": "/img/Hot_Wheels_Pearl_Chrome_Porsche_Cayman_S_57th_Anniversary.png.png"
+  },
+  {
+    "id": 5,
+    "name": "Hot Wheels Python/Cheetah",
+    "price": 299.90,
+    "category": "Raro",
+    "image": "/img/Hot_Wheels_Python_Cheetah.png"
+  },
+  {
+    "id": 6,
+    "name": "Hot Wheels D-Muscle, 57th Anniversary",
+    "price": 299.90,
+    "category": "Limitado",
+    "image": "/img/Hot_Wheels_D_Muscle_57th_Anniversary.png"
+  },
+  {
+    "id": 7,
+    "name": "Hot Wheels Dodge Viper SRT10 Fast & Furious",
+    "price": 299.90,
+    "category": "Premium",
+    "image": "/img/Hot_Wheels_Dodge_Viper_SRT10_Fast_Furious.png"
+  },
+  {
+    "id": 8,
+    "name": "Hot Wheels bone shaker, 58th Anniversary",
+    "price": 299.90,
+    "category": "Limitado",
+    "image": "/img/Hot_Wheels_Bone_Shaker_58th_Anniversary.png"
+  },
+  {
+    "id": 9,
+    "name": "Hot Wheels Fast & Furious Toyota Supra ",
+    "price": 299.90,
+    "category": "Silver-series",
+    "image": "/img/Hot_Wheels_Fast_Furious_Toyota_Supra.png"
+  },
+  {
+    "id": 10,
+    "name": "Hot Wheels 2017 Ford F150 Raptor",
+    "price": 299.90,
+    "category": "Premium",
+    "image": "/img/Hot_Wheels_2017_Ford_F150_Raptor.png"
+  },
+  {
+    "id": 11,
+    "name": "Hot Wheels 1985 Honda CR-X Peanuts",
+    "price": 299.90,
+    "category": "Silver-series",
+    "image": "/img/Hot_Wheels_1985_Honda_CR_X_Peanuts.png"
+  },
+  {
+    "id": 12,
+    "name": "Hot Wheels Mutt Cutts Van",
+    "price": 299.90,
+    "category": "Premium",
+    "image": "/img/Hot_Wheels_Mutt_Cutts_Van.png"
+  }
+]
